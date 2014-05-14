@@ -1,4 +1,4 @@
-RabbitMQ Monitor
+RabbitMQ Manager
 ================
 
 This utility began as a quick way to check the current queue status of a RabbitMQ instance. Whilst I was making use of the original tool, I decided that it made sense to expand to cover the entirety of the RabbitMQ Management APIs - which is what this utility is.
@@ -10,10 +10,10 @@ It's designed to be a light utility in order to quickly check on and modify queu
 Just install this module globally to have easy access to the utility. You must have NodeJS and NPM installed:
 
 ```
-sudo npm install -g iwhitfield/rabbitmq-monitor
+sudo npm install -g rabbitmq-manager
 ```
 
-Which will allow you to access the utility using either `rabbit` or `rabbit-monitor` commands.
+Which will allow you to access the utility using either `rabbit` or `rabbit-manager` commands.
 
 ### Usage ###
 
@@ -172,4 +172,4 @@ $ rabbit query --api /api/vhosts --conf test-conf
 
 ### Misc. ###
 
-If you have any suggested improvements, or find any issues with this module, leave a note in the [issues](https://github.com/iwhitfield/rabbitmq-monitor/issues "RabbitMQ Monitor Issues") section. Feel free to reach out to me if you have any questions.
+If you have any suggested improvements, or find any issues with this module, leave a note in the [issues](https://github.com/iwhitfield/rabbitmq-manager/issues "RabbitMQ Manager Issues") section. Feel free to reach out to me if you have any questions.
