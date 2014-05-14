@@ -1,0 +1,26 @@
+{
+	"name":"rabbitmq-monitor",
+	"version":"1.0.0",
+	"description":"A RabbitMQ monitoring system written in NodeJS.",
+	"author":{
+		"name":"Isaac Whitfield",
+		"email":"iwhitfield@appcelerator.com"
+	},
+	"repository":{
+		"type":"git",
+		"url":"http://github.com/iwhitfield/rabbitmq-monitor.git"
+	},
+	"preferGlobal":true,
+	"readmeFilename":"README.md",
+	"dependencies":{
+		"expansion":"git://github.com/iwhitfield/expansion-js#master",
+		"minimist":"*"
+	},
+	"bin":{
+		"rabbit":"index.js",
+		"rabbit-monitor":"index.js"
+	},
+	"scripts":{
+		"postinstall":"chmod -f 777 $(npm root -g)/rabbitmq-monitor/utils/config.json"
+	}
+}
