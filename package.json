@@ -1,6 +1,6 @@
 {
 	"name":"rabbitmq-manager",
-	"version":"1.0.0",
+	"version":"1.0.1",
 	"description":"A RabbitMQ monitoring system written in NodeJS.",
 	"author":{
 		"name":"Isaac Whitfield",

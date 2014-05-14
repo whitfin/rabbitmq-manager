@@ -167,7 +167,6 @@ $ rabbit query --api /api/vhosts --conf test-conf
         "tracing": false
     }
 ]
-
 ```
 
 ### Misc. ###

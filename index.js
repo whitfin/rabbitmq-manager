@@ -22,6 +22,6 @@ switch(process.argv[2]){
 		require('./lib/unset.js');
 		break;
 	default:
-		console.log("\nPlease provide a valid option: query, queue, set, unset.\n");
+		console.log("\nPlease provide a valid option: config, query, queue, set, unset.\n");
 		break;
 }
