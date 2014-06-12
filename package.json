@@ -23,6 +23,7 @@
 	},
 	"dependencies":{
 		"expansion":"git://github.com/iwhitfield/expansion-js#master",
+		"joi":"*",
 		"minimist":"*"
 	},
 	"bin":{

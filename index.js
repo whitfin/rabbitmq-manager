@@ -9,6 +9,12 @@ switch(process.argv[2]){
 	case "config":
 		require('./lib/config.js');
 		break;
+	case "export":
+		require('./lib/export.js');
+		break;
+	case "import":
+		require('./lib/import.js');
+		break;
 	case "query":
 		require('./lib/query.js');
 		break;
