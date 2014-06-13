@@ -7,7 +7,7 @@ var conf = args.c || args.conf || args.config,
 var pass = args.p || args.pass || args.password || config[conf] ? config[conf].password : undefined,
 	user = args.u || args.user || args.username || config[conf] ? config[conf].username : undefined;
 
-if(!user || (!pass && !~user.indexOf(':'))){
+if((!user || (!pass && !~user.indexOf(':'))) && !conf){
 	console.log('\nPlease enter a valid username and password.\n');
 	process.exit(1);
 }

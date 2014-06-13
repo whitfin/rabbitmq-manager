@@ -70,6 +70,8 @@ $ rabbit config
 {}
 ```
 
+You can also use `rabbit import` and `rabbit export` to import/export your configuration file. `rabbit import`
+
 ### Drivers ###
 
 As mentioned previously, the two main drivers of this utility are `queue` and `query`. Both of these commands take these parameters:
