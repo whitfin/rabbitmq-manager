@@ -27,6 +27,9 @@ switch(process.argv[2]){
 	case "unset":
 		require('./lib/unset.js');
 		break;
+	case "version":
+		require('./lib/version.js');
+		break;
 	default:
 		console.log("\nPlease provide a valid option: config, query, queue, set, unset.\n");
 		break;
