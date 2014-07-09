@@ -70,7 +70,7 @@ $ rabbit config
 {}
 ```
 
-You can also use `rabbit import` and `rabbit export` to import/export your configuration file. `rabbit import`
+You can also use `rabbit import` and `rabbit export` to import/export your configuration file. `rabbit import` takes a parameter of either a file path, or just raw JSON. `rabbit export` takes a parameter of the file to output to, but defaults to `config.json` in the current directory if none is provided.
 
 ### Drivers ###
 
