@@ -1,6 +1,6 @@
 {
   "name": "rabbitmq-manager",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A RabbitMQ monitoring system written in NodeJS.",
   "author": {
     "name": "Isaac Whitfield",
@@ -22,7 +22,7 @@
     "url": "http://github.com/iwhitfield/rabbitmq-manager/issues"
   },
   "dependencies": {
-    "expansion": "git://github.com/iwhitfield/expansion-js#master",
+    "expansion": "0.1.0",
     "joi": "*",
     "minimist": "*"
   },
@@ -34,10 +34,5 @@
     "postinstall": "chmod -f 777 $(npm root -g)/rabbitmq-manager/utils/config.json"
   },
   "preferGlobal": true,
-  "readmeFilename": "README.md",
-  "bundledDependencies": [
-    "expansion",
-    "joi",
-    "minimist"
-  ]
+  "readmeFilename": "README.md"
 }
