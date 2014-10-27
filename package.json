@@ -30,9 +30,6 @@
     "rabbit": "index.js",
     "rabbit-manager": "index.js"
   },
-  "scripts": {
-    "postinstall": "chmod -f 777 utils/config.json"
-  },
   "preferGlobal": true,
   "readmeFilename": "README.md"
 }
