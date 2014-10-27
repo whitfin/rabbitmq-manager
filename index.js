@@ -2,9 +2,10 @@
 require('expansion');
 
 Object.defineProperty(global, '__config', {
-    value:require('path').join(__dirname, 'utils', 'config.json')
+    value:require('path').join(process.env.HOME, '.rabbitmq-manager', 'config.json')
 });
 
+require('./utils/setup');
 switch(process.argv[2]){
     case "config":
         require('./lib/config.js');

@@ -1,5 +1,5 @@
 var args = require('minimist')(process.argv.slice(3)),
-    config = require('./config');
+    config = require(__config);
 
 var conf = args.c || args.conf || args.config,
     poll = args.poll || false;
